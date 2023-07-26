@@ -88,7 +88,7 @@ train_X, test_X, train_label, test_label,T = data_process_SWaT()
 W = 0.5  # 惯性因子  0.5
 c1 = 0.6  # 学习因子  0.8
 c2 = 0.6  # 学习因子  0.5
-n_iterations = 3  # 迭代次数
+n_iterations = 5  # 迭代次数
 n_particles = 30  # 种群规模
 
 
