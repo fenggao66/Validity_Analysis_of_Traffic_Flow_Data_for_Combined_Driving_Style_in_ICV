@@ -1,9 +1,3 @@
-'''This is adapted from GitHub repo https://github.com/manigalati/usad.,
-original paper was published at KDD 2020 at https://dl.acm.org/doi/10.1145/3394486.3403392, 
-titled "USAD: UnSupervised Anomaly Detection on Multivariate Time Series".
-Please also check the authors' original paper and implementation for reference.'''
-
-# Set current working directory to the main branch of RLMSAD
 import sys
 sys.path.append('C:/Users/gjh/Desktop/RLMSAD-master') # This is the path setting on my computer, modify this according to your need
 import sklearn
