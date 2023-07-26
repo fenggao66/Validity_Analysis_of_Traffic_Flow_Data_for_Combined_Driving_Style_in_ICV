@@ -1,10 +1,7 @@
-# Set current working directory to the main branch of RLMSAD
-
 import os
 import sys
 
 from pyparsing import replaceWith
-sys.path.append('C:/Users/gjh/Desktop/RLMSAD-master') # This is the path setting on my computer, modify this according to your need
 from base_detectors.USAD.usad_model import *
 
 import random
@@ -495,9 +492,9 @@ class TrainEnvOffline_dist_conf(EnvOffline_dist_conf):
                 reward = -1.5
         else: # If the ground truth is 0 normal
             if observation[2]==1: # If the model predicts 1 anomaly incorrectly - False Positive (FP)
-                reward = -0.4
+                reward = -0.5
             else: # If the model predicts 0 normal correctly - True Negative (TN)
-                reward = 0.1
+                reward = 0.3
 
         return reward
 
