@@ -11,8 +11,6 @@ import pickle
 
 def raw_scores_gtruth(model_path='C:/Users/gjh/Desktop/RLMSAD-master/base_detectors'):
 
-    '''Prepare for computing raw scores and get ground truth labels for the WHOLE dataset
-    准备计算原始分数并获得整个数据集的基本事实标签（平均值采样后 = 5帧）'''
 
     train_X, test_X, train_label, test_label, T = data_process_SWaT()
     
