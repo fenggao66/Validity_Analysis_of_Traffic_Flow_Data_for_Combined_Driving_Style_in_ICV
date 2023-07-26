@@ -1,7 +1,6 @@
-# Set current working directory to the main branch of RLMSAD
 import sys
 
-sys.path.append('C:/Users/gjh/Desktop/RLMSAD-master') # This is the path setting on my computer, modify this according to your need
+sys.path.append('C:/Users/gjh/Desktop/RLMSAD-master') 
 from RL_settings.env import *
 from base_detectors.get_preds_thres import *
 from stable_baselines3 import DQN
